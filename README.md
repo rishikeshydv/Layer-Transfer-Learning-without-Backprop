@@ -1,1 +1,1 @@
-This is a research project in which I am trying to train the Deep Learning Model without backpropagation.
+This is a research project in which I am trying to train and 'transfer-learn' the Deep Learning Model without backpropagation.
