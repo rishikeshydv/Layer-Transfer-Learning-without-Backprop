@@ -21,7 +21,7 @@ This technique can reduce training costs by over 60% while maintaining high pred
 Layer transfer learning has the potential to be an effective solution for addressing the challenge of expensive CNN training. Some of its significances are: <br>
 1) Cost Reduction <br>
 2) Reduced Training Time <br>
-3) 3)Improved Accuracy <br>
+3) Improved Accuracy <br>
 4) Effective use of resources <br><br>
 
 # **Methodologies** <br>
