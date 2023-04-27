@@ -1,5 +1,5 @@
-### Breaking the Barrier of Expensive CNN Training:<br>
-# Achieving High Accuracy with Efficient Layer Transfer Learning <br><br>
+# Breaking the Barrier of Expensive CNN Training:<br>
+## Achieving High Accuracy with Efficient Layer Transfer Learning <br><br>
 
 # **Problem** <br>
 Despite Convolutional Neural Networks have achieved remarkable success in various applications of Artificial Intelligence, several issues still exist with training CNNs: <br>
