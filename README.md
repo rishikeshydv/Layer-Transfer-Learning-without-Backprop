@@ -1,4 +1,4 @@
-![Poster](https://drive.google.com/file/d/1d5rGgGu70ymnlwSNSn6ZzOvWBGemTU1L/view?usp=share_link)
+![Poster]([https://drive.google.com/file/d/1d5rGgGu70ymnlwSNSn6ZzOvWBGemTU1L/view?usp=share_link](https://drive.google.com/file/d/1v-DEgDcw71_afN8LOM2CoEwymkqVmR0E/view?usp=share_link))
 # Breaking the Barrier of Expensive CNN Training:<br>
 ## Achieving High Accuracy with Efficient Layer Transfer Learning <br><br>
 
