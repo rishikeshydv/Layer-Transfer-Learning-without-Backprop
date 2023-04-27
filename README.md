@@ -37,25 +37,25 @@ Backprop(MNIST)-Transfer(EMNIST)-Test(M6)<br><br>
 
 # **Results** <br><br>
 Results for different models are listed below:<br>
-**Individual(MNIST)** <br>
-*Backprop-Freeze-Compile-Test* <br><br>
+**Individual(MNIST)** <br><br>
+*a) Backprop-Freeze-Compile-Test* <br><br>
 Test Accuracy: 99.01%<br>
 Time Elapsed:   89.15s<br><br>
-*Backprop-Freeze-NoCompile-Test*<br><br>
+*b) Backprop-Freeze-NoCompile-Test*<br><br>
 Test Accuracy: 98.75%<br>
 Time Elapsed:   390.15s<br><br><br>
 
-**Dual datasets(MNIST & EMNIST)** <br>
-*Backprop(MNIST)-Freeze-Compile-Transfer(EMNIST)-Test*<br><br>
+**Dual datasets(MNIST & EMNIST)** <br><br>
+* a) Backprop(MNIST)-Freeze-Compile-Transfer(EMNIST)-Test*<br><br>
 Test Accuracy: 51.02%<br>
 Time Elapsed:   246.24s<br><br>
-*Backprop(EMNIST)-Freeze-Compile-Transfer(MNIST)-Test*<br><br>
+* b) Backprop(EMNIST)-Freeze-Compile-Transfer(MNIST)-Test*<br><br>
 Test Accuracy: 8.27%<br>
 Time Elapsed:   115.62s<br><br>
-*NoBackprop(MNIST)- Transfer+NoBackprop(EMNIST)-Test*<br><br>
+* c) NoBackprop(MNIST)- Transfer+NoBackprop(EMNIST)-Test*<br><br>
 Test Accuracy: 48.10%<br>
 Time Elapsed:  241.13s<br><br>
-*Backprop(MNIST)-Transfer+Backprop(EMNIST)-Test*<br><br>
+* d) Backprop(MNIST)-Transfer+Backprop(EMNIST)-Test*<br><br>
 Test Accuracy: 49.67%<br>
 Time Elapsed:  647.67s<br><br><br>
 
