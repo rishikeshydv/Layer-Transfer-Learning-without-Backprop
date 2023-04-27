@@ -27,13 +27,13 @@ Layer transfer learning has the potential to be an effective solution for addres
 # **Methodologies** <br>
 We coded and implemented six models over two different categories of datasets: <br>
 **1) Individual(MNIST)** <br><br>
-Backprop-Freeze-Compile-Test (M1)<br>
-Backprop-Freeze-NoCompile-Test(M2)<br><br>
+a) Backprop-Freeze-Compile-Test (M1)<br>
+b) Backprop-Freeze-NoCompile-Test(M2)<br><br>
 **2) Dual datasets(MNIST & EMNIST)**<br><br>
-Backprop(MNIST)-Freeze-Compile-Transfer(EMNIST)-Test(M3)<br>
-Backprop(EMNIST)-Freeze-Compile-Transfer(MNIST)-Test (M4)<br>
-NoBackprop(MNIST)- Transfer(EMNIST)-Test(M5)<br>
-Backprop(MNIST)-Transfer(EMNIST)-Test(M6)<br><br>
+a) Backprop(MNIST)-Freeze-Compile-Transfer(EMNIST)-Test(M3)<br>
+b) Backprop(EMNIST)-Freeze-Compile-Transfer(MNIST)-Test (M4)<br>
+c) NoBackprop(MNIST)- Transfer(EMNIST)-Test(M5)<br>
+d) Backprop(MNIST)-Transfer(EMNIST)-Test(M6)<br><br>
 
 # **Results** <br><br>
 Results for different models are listed below:<br>
