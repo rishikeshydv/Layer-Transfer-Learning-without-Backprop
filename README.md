@@ -1,1 +1,2 @@
-This is a research project in which I am trying to train and 'transfer-learn' the Deep Learning Model without backpropagation.
+Breaking the Barrier of Expensive CNN Training:<br>
+Achieving High Accuracy with Efficient Layer Transfer Learning
