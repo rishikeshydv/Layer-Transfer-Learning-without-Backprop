@@ -63,6 +63,7 @@ Time Elapsed:  647.67s<br><br><br>
 Backprop(MNIST)-Freeze-Compile-Transfer(EMNIST)-Test has the highest accuracy and least time elapse in comparison. This model is more accurate in comparison to Backprop(MNIST)-Transfer+Backprop(EMNIST)-Test (has backprop for both datasets).
 Layer transfer learning is an effective solution for addressing the challenge of expensive CNN training, allowing for more efficient and cost-effective use of computational resources.
 
+# **Further Works** <br><br>
 ## Pruning Filters:
 Here, we will start with random filter matrices and remove less relevant filters based upon its activation values to test its effect on training time and accuracy. The training time reduced by approx. 60% without any changes in the accuracy.
 
