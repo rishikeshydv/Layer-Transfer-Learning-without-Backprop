@@ -63,11 +63,11 @@ Time Elapsed:  647.67s<br><br><br>
 Backprop(MNIST)-Freeze-Compile-Transfer(EMNIST)-Test has the highest accuracy and least time elapse in comparison. This model is more accurate in comparison to Backprop(MNIST)-Transfer+Backprop(EMNIST)-Test (has backprop for both datasets).
 Layer transfer learning is an effective solution for addressing the challenge of expensive CNN training, allowing for more efficient and cost-effective use of computational resources.
 
-# **Further Works** <br><br>
-## Pruning Filters:
+## Further Works
+### Pruning Filters:
 Here, we will start with random filter matrices and remove less relevant filters based upon its activation values to test its effect on training time and accuracy. The training time reduced by approx. 60% without any changes in the accuracy.
 
-## Roadmap for this project:
+### Roadmap for this project:
 I am looking forward to build an extremely versatile Deep Learning Model that can be used to implement Transfer Learning to any model being creating or already created by transferring the weights and biases based upon the type of model and its dataset. I will be implementing the idea of transfer learning and filter pruning in that regard from this project.
 
 
