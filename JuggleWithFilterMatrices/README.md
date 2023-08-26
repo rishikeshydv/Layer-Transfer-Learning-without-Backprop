@@ -40,13 +40,13 @@ pip install numpy pandas tensorflow keras jupyter
 1. Clone this GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/activation-based-filter-pruning.git
+https://github.com/rishikeshydv/NeotypeTransferLearning.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd activation-based-filter-pruning
+cd JuggleWithFilterMatrices
 ```
 
 3. Open the Jupyter Notebooks provided to explore and experiment with the activation-based filter pruning technique.
@@ -59,14 +59,6 @@ Follow the Jupyter Notebooks in this repository to understand how to apply activ
 
 Contributions to this project are welcome. If you have ideas for improvements or new features, please open an issue to discuss or submit a pull request. You can also contribute by testing the project with different datasets and sharing your results.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 We would like to acknowledge the contributions of the open-source community and the developers of the libraries and frameworks used in this project. Your work has been instrumental in making this research possible.
-
----
-
-Feel free to customize this README to suit your project's specific details and structure. Good luck with your activation-based filter pruning project!
