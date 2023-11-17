@@ -1,0 +1,17 @@
+Datasets:
+
+a) Source Domain is going to be recipes of italian cuisine
+That would create a keyword space 
+(* once a basic model is built, dont use datasets, use realtime food recipe website through scraping)
+b) Target Domain is going to be the titles of italian cuisine recipes on Youtube
+
+The key to this project would be parsing real time database to update the keyword space
+
+We need to prepare the data by using certain columns only
+
+Realtime scraping:
+We need a server that gets the website name and some changes in what class or div to be handled
+to scrape the actual recipe of the food
+
+Train_Data = recipe
+Train_Labels = Appetizer/Entree/Dessert
