@@ -14,4 +14,9 @@ We need a server that gets the website name and some changes in what class or di
 to scrape the actual recipe of the food
 
 Train_Data = recipe
-Train_Labels = Appetizer/Entree/Dessert
+Train_Labels = Appetizer/Entree/Dessert, there is a total of 3 labels
+
+
+Note:
+If you want to increase your accuracy, you can use pre-made embeddings from https://nlp.stanford.edu/projects/glove/
+
