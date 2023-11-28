@@ -20,3 +20,24 @@ Train_Labels = Appetizer/Entree/Dessert, there is a total of 3 labels
 Note:
 If you want to increase your accuracy, you can use pre-made embeddings from https://nlp.stanford.edu/projects/glove/
 
+
+Final Idea:
+
+I will have the source domain with 'recipe' and labels (apps,entree,dessert). We need labels because a video
+about 'Appetizer' mostly recommends another 'Appetizer' not 'Dessert'.
+
+Source Domain with labels and 'Recipe'.
+We create 'topic-space' in a new column.
+
+Target Domain with 'Title', 'Video Tags' and 'Labels'
+Here, we will not be using labels for test_dataset.
+
+
+We will do a cross domain transfer learning between the 'video tags' and 'labels' of target domain and 
+'topic-space' and 'labels' of auxiliary datasets. We will also be using the test_dataset from target domain
+while doing DANN.
+
+This should train the model.
+
+As a video recommender, it will take a food recipe or even just the title of the food, it will create a topic space
+and then it will be next to the video-tag of the video of closest match as 'video.next'.
