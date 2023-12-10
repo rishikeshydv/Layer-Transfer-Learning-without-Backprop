@@ -41,3 +41,5 @@ This should train the model.
 
 As a video recommender, it will take a food recipe or even just the title of the food, it will create a topic space
 and then it will be next to the video-tag of the video of closest match as 'video.next'.
+
+
