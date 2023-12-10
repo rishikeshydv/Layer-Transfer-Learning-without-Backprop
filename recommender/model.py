@@ -29,6 +29,12 @@ from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 
+import requests
+import pytz
+from bs4 import BeautifulSoup
+import datetime
+import csv
+
 #verifying the certificate
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -340,7 +346,15 @@ class YTRecommender():
 
         end_time = time.time()
 
-            
+    def realtimeScrape(self):
+        r = requests.get('https://www.allrecipes.com/gallery/top-new-recipes-2022/')
+        html = r.content 
+        soup = BeautifulSoup(html,'html.parser')
+        
+        for w in soup.find_all('p', {'class': 'comp mntl-sc-block mntl-sc-block-html'})[:]:
+            model_input = self.create_topic_space(w.text)
+                        
+        return model_input
         
     
     
